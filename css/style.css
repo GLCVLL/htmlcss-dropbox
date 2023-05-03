@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
 }
 
 .container{
@@ -24,6 +25,7 @@ ul{
     padding: 10px;
     border: 0;
     font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
 }
 
 .bg-blue{
@@ -38,6 +40,12 @@ ul{
 
 /*Header*/
 
+header{
+    background-color: #b4d0e7;
+}
+
+/*Navbar*/
+
 .navbar{
     height: 80px;
     width: 100%;
@@ -47,7 +55,7 @@ ul{
     z-index: 1;
     display: flex;
     justify-content: space-between;
-    background-color: brown;
+    background-color: white;
 }
 
 .navbar-left, .navbar-right, .navbar-list{
@@ -62,3 +70,39 @@ ul{
     padding: 10px;
     cursor: pointer;
 }
+
+/*Jumbotron*/
+.content-top .title{
+    font-size: 80px;
+    padding: 60px 0;
+}
+
+.content-bottom{
+    display: flex;
+}
+
+.content-left{
+    flex-basis: 30%;
+}
+
+.content-right{
+    flex-basis: 70%;
+    position: relative;
+}
+
+.content-right img{
+    height: 375px;
+    position: absolute;
+    right: 40px;
+    bottom: -100px;
+}
+
+.content-left-text{
+    padding-bottom: 30px;
+}
+
+.content-left-text-small{
+    padding: 30px 0;
+}
+
+/*Main text*/
