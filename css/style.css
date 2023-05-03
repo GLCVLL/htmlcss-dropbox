@@ -1,12 +1,64 @@
-/*reset*/
+/*Reset*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*generics*/
+/*Generics*/
 
 body{
     font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.buttons{
+    padding: 10px;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-blue{
+    background-color: #0061ff;
+    color: white;
+}
+
+.bg-white{
+    background-color: white;
+    color: black;
+}
+
+/*Header*/
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+}
+
+.navbar-left, .navbar-right, .navbar-list{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar-list a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
 }
