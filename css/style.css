@@ -38,10 +38,16 @@ ul{
     color: black;
 }
 
+.bg-gray{
+    background-color: lightgray;
+    color: black;
+}
+
 /*Header*/
 
 header{
     background-color: #b4d0e7;
+    margin-bottom: 120px;
 }
 
 /*Navbar*/
@@ -72,6 +78,7 @@ header{
 }
 
 /*Jumbotron*/
+
 .content-top .title{
     font-size: 80px;
     padding: 60px 0;
@@ -91,10 +98,10 @@ header{
 }
 
 .content-right img{
-    height: 375px;
+    height: 380px;
     position: absolute;
-    right: 40px;
-    bottom: -100px;
+    right: 60px;
+    bottom: -90px;
 }
 
 .content-left-text{
@@ -106,3 +113,84 @@ header{
 }
 
 /*Main text*/
+
+/*small title*/
+
+.title-small{
+    font-size: 30px;
+    padding: 40px 0;
+}
+
+/*circle*/
+
+.circle-row{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+}
+  
+.inner-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.circle-row span { 
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+/* Table*/
+
+.table-business{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+  
+.column{
+    flex: 1;
+    margin: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Column Title*/
+.column-top{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+ }
+
+.column-title span{
+    padding-left: 10px;
+}
+
+/*Column Price*/
+
+.column-bottom{
+    padding: 20px;
+    line-height: 2.5;
+}
+
+.column-price h3{
+    font-size: 25px;
+}
