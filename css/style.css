@@ -40,6 +40,7 @@ ul{
 .bg-white{
     background-color: white;
     color: black;
+    border: 1px solid black;
 }
 
 .bg-gray{
@@ -163,16 +164,15 @@ header{
 
 /* Table*/
 
-.row{
+.table-business{
     display: flex;
     flex-wrap: nowrap;
-    gap: 10px;
+    gap: 30px;
 }
   
 .column{
-    width: calc(100% / 3);
+    flex-basis: calc(100% / 3);
     align-items: stretch;
-    background-color: #f1f1f1;
     border: 1px solid lightgray;
 }
 
@@ -257,7 +257,30 @@ header{
     padding: 10px;
   }
 
+/*image with text*/
 
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.row img{
+    width: 600px;
+    height: 600px;
+}
+
+.row-left{
+    flex-basis: 60%;
+}
+
+.row-right{
+    flex-basis: 40%;
+    line-height: 2.0;
+}
+
+.row-right h3{
+    font-size: 25px;
+}
 
 
 
