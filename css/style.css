@@ -439,3 +439,30 @@ header{
 .cta-right{
     flex-basis: 40%;
 }
+
+/*FAQ*/
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.faq-title, .faq-question{
+    border-bottom: 1px solid black;
+    padding: 40px 0;
+}
+
+.faq-question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq i{
+    padding-right: 40px;
+}
+
+.faq h2{
+    font-size: 40px;
+}
