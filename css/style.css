@@ -466,3 +466,58 @@ header{
 .faq h2{
     font-size: 40px;
 }
+
+/*footer*/
+
+footer{
+    background-color: black;
+}
+
+.nb-footer{
+    display: flex;
+    padding: 100px 0;
+}
+
+.nb-column{
+    flex-basis: calc(100% / 5);
+    line-height: 2.0;
+}
+
+.nb-column ul{
+    list-style-type: none;
+}
+
+.nb-column a{
+    text-decoration: none;
+    color: #e9eaeb;
+}
+
+.nb-column ul li:first-child{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 0;
+    color: white;
+}
+
+.border-footer{
+    padding: 40px 0;
+    border-bottom: 1px solid lightgray;
+    width: 15%;
+}
+
+.footer-text{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+  
+.footer-text i{
+    margin-right: 5px;
+    color: white;
+}
+  
+.footer-text span{
+    font-size: 16px;
+    color: white;
+    padding: 0 10px;
+}
