@@ -458,17 +458,10 @@ header{
     padding: 40px 0;
 }
 
-.faq-question{
+.faq-question .question{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
 }
 
 .faq-question .answer{
