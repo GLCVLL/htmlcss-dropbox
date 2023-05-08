@@ -37,6 +37,11 @@ ul{
     color: white;
 }
 
+.bg-blue:hover{
+    background-color: #0077ff;
+    transition: 0.1s ease;
+}
+
 .bg-white{
     background-color: white;
     color: black;
@@ -457,6 +462,25 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.faq-question .answer{
+    display: none;
+}
+
+.faq-question:hover .answer{
+    display: block;
+}
+
+.faq-question:hover .question{
+    display: none;
 }
 
 .faq i{
