@@ -479,7 +479,15 @@ header{
     display: block;
 }
 
-.faq-question:hover .question{
+.faq-question .second{
+    display: none;
+}
+
+.faq-question:hover .second{
+    display: block;
+}
+
+.faq-question:hover .first{
     display: none;
 }
 
